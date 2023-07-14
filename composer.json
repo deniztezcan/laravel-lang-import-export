@@ -1,5 +1,5 @@
 {
-    "name": "highsolutions/laravel-lang-import-export",
+    "name": "deniztezcan/laravel-lang-import-export",
     "description": "A Laravel package providing artisan commands to import and export language files from and to CSV.",
     "keywords": ["laravel", "localization", "translation", "messages", "import", "export", "CSV"],
     "authors": [
@@ -10,16 +10,20 @@
         {
             "name": "HighSolutions",
             "email": "adam@highsolutions.pl"
+        },
+        {
+            "name": "Deniz Tezcan",
+            "email": "deniz@nopulp.nl"
         }
     ],
     "license": "MIT",
     "require": {
         "php": ">=5.6.4",
-        "illuminate/support": "5.*|^6.0|^7.0|^8.0"
+        "illuminate/support": "5.*|^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "HighSolutions\\LangImportExport\\": "src/"
+            "DenizTezcan\\LangImportExport\\": "src/"
         },
         "files": [
             "src/Support/helpers.php"
@@ -27,10 +31,10 @@
     },
     "extra": {
         "component": "package",
-        "frameworks": ["Laravel 5.7", "Laravel 5.8", "Laravel 6.x", "Laravel 7.x", "Laravel 8.x"],
+        "frameworks": ["Laravel 5.7", "Laravel 5.8", "Laravel 6.x", "Laravel 7.x", "Laravel 8.x", "Laravel 9.x", "Laravel 10.x"],
         "laravel": {
             "providers": [
-                "HighSolutions\\LangImportExport\\LangImportExportServiceProvider"
+                "DenizTezcan\\LangImportExport\\LangImportExportServiceProvider"
             ]            
         }
     },

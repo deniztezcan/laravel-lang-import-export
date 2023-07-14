@@ -1,6 +1,6 @@
 <?php
 
-namespace HighSolutions\LangImportExport;
+namespace DenizTezcan\LangImportExport;
 
 use Lang;
 use File;

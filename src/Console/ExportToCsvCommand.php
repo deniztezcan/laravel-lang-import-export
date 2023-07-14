@@ -1,11 +1,11 @@
 <?php
 
-namespace HighSolutions\LangImportExport\Console;
+namespace DenizTezcan\LangImportExport\Console;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
-use HighSolutions\LangImportExport\Facades\LangListService;
+use DenizTezcan\LangImportExport\Facades\LangListService;
 
 class ExportToCsvCommand extends Command 
 {

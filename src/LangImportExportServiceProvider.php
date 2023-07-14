@@ -1,10 +1,10 @@
 <?php
 
-namespace HighSolutions\LangImportExport;
+namespace DenizTezcan\LangImportExport;
 
 use Illuminate\Support\ServiceProvider;
-use HighSolutions\LangImportExport\Console\ExportToCsvCommand;
-use HighSolutions\LangImportExport\Console\ImportFromCsvCommand;
+use DenizTezcan\LangImportExport\Console\ExportToCsvCommand;
+use DenizTezcan\LangImportExport\Console\ImportFromCsvCommand;
 
 class LangImportExportServiceProvider extends ServiceProvider 
 {

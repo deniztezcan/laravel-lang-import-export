@@ -1,5 +1,5 @@
 <?php
-namespace HighSolutions\LangImportExport\Facades;
+namespace DenizTezcan\LangImportExport\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

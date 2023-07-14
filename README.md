@@ -1,5 +1,3 @@
-![Laravel-Lang-Import-Export by HighSolutions](https://raw.githubusercontent.com/highsolutions/laravel-lang-import-export/master/intro.jpg)
-
 Laravel-Lang-Import-Export
 ==========================
 
@@ -45,7 +43,7 @@ Add the following line to the `require` section of your Laravel webapp's `compos
 
 ```javascript
     "require": {
-        "HighSolutions/laravel-lang-import-export": "^6.0"
+        "deniztezcan/laravel-lang-import-export": "^1.0"
     }
 ```
 
@@ -57,7 +55,7 @@ For previous versions of Laravel, you need to update `config/app.php` by adding 
 ```php
     'providers' => array(
         /* ... */
-        'HighSolutions\LangImportExport\LangImportExportServiceProvider'
+        'DenizTezcan\LangImportExport\LangImportExportServiceProvider'
     )
 ```
 
@@ -107,58 +105,12 @@ When you call command without parameters - it will try to read default file of e
 | -E / --enclosure  | Field enclosure                              | NO           | "                                  |
 | -C / --escape     | Field escape                                 | NO           | \                                  |
 
-Changelog
-------------
-
-6.1.0
-* Support Laravel 7.x and 8.x
-
-6.0.0
-* Support Laravel 6.0
-
-5.4.10
-* Laravel 5.7 support
-
-5.4.9
-* Create new directory, when not exists before
-
-5.4.8
-* Fix UTF-8 encoding
-
-5.4.7
-*  Handling empty keys
-
-5.4.6
-* Laravel 5.6 support
-
-5.4.3
-- support Package Auto-Discovery
-
-5.4.2
-- resolve problems with PSR-4 autoloading
-
-5.4.1
-- improved import command
-- improved Excel support
-- support of [LaravelLocalization](https://github.com/mcamara/laravel-localization) routes files
-
-5.4.0
-- refactor whole repository
-- add support for Excel
-- add support for export and import all localization files
-- any arguments are not required
-
-Roadmap
-------------
-
-* Removing tabs from text
-* Option for deleting export file after importing.
-* Option for excluding certain files (and system ones).
-* Unit tests!
 
 Credits
 ------------
 
 This package was originally created by [UFirst](http://github.com/ufirstgroup) and is available here: [Laravel-lang-import-export](https://github.com/ufirstgroup/laravel-lang-import-export).
 
-Currently is developed by [HighSolutions](https://highsolutions.org), software house from Poland in love in Laravel.
+Then it was further developed by [HighSolutions](https://highsolutions.org), software house from Poland.
+
+Support for Laravel 9 and 10 was added by me.
